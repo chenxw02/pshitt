@@ -4,13 +4,13 @@ import time
 import psutil
 import subprocess
 
-SMTP_SERVER = 'smtp.office365.com'  # SMTP服务器地址
+SMTP_SERVER = 'smtp.example.com'  # SMTP服务器地址
 SMTP_PORT = 587  # SMTP服务器端口
-SMTP_USER = 'chenxiaowei02@outlook.com'  # 发件人邮箱
-SMTP_PASSWORD = 'Cxw20140503'  # 发件人邮箱密码
+SMTP_USER = 'your-email@example.com'  # 发件人邮箱
+SMTP_PASSWORD = 'your-password'  # 发件人邮箱密码
 
-EMAIL_FROM = 'chenxiaowei02@outlook.com'  # 发件人邮箱
-EMAIL_TO = 'chenxiaowei02@outlook.com'  # 收件人邮箱
+EMAIL_FROM = 'your-email@example.com'  # 发件人邮箱
+EMAIL_TO = 'recipient-email@example.com'  # 收件人邮箱
 EMAIL_SUBJECT = 'Port 22 Alert'  # 邮件主题
 
 CHECK_PORT = 22  # 需要检查的端口
